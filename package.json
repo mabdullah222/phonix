@@ -1,9 +1,23 @@
 {
-  "name": "Elastic-Beanstalk-Sample-App",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {},
+  "name": "phonix",
+  "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabdullah222/phonix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabdullah222/phonix/issues"
+  },
+  "homepage": "https://github.com/mabdullah222/phonix#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
